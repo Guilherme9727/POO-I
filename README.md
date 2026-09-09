@@ -9,7 +9,22 @@ Repositório acadêmico com exercícios e atividades desenvolvidos na disciplina
 
 </div>
 
-## 🎯 Objetivo
+## ⭐ Projeto em destaque — Sorveteria Floquinho
+
+Entre as atividades do repositório está um pequeno sistema de sorveteria desenvolvido em Java para praticar modelagem orientada a objetos.
+
+O exercício possui classes como:
+
+- `Produto`;
+- `Usuario`;
+- `SistemaSorveteria`;
+- `SorveteriaFloquinho`.
+
+📁 [Abrir atividade da Sorveteria](./ATIVIDADES/09_atv_sorveteria)
+
+Esse exercício representa uma etapa importante da minha evolução porque começa a transformar conceitos isolados de POO em um pequeno domínio com diferentes objetos e responsabilidades.
+
+## 🎯 Objetivo do repositório
 
 Registrar minha evolução nos fundamentos de orientação a objetos por meio de exercícios progressivos, atividades avaliativas e pequenos problemas de programação.
 
@@ -20,14 +35,12 @@ As atividades estão organizadas na pasta [`ATIVIDADES`](./ATIVIDADES).
 Entre os materiais disponíveis estão:
 
 - atividades numeradas de `02_atv` a `09_atv`;
-- exercício de sorveteria;
+- sistema de sorveteria;
 - conteúdos de aula;
 - avaliações e atividades adicionais (`P2` e `P2_Adicional`);
 - exercícios introdutórios e arquivos de apoio.
 
 ## 🧠 Conceitos praticados
-
-Este repositório acompanha o aprendizado de fundamentos de POO, como:
 
 - classes e objetos;
 - atributos e métodos;
@@ -35,8 +48,9 @@ Este repositório acompanha o aprendizado de fundamentos de POO, como:
 - construtores;
 - getters e setters;
 - associação entre objetos;
-- organização de código em Java;
-- resolução de problemas utilizando modelagem orientada a objetos.
+- divisão de responsabilidades entre classes;
+- organização de código Java;
+- modelagem orientada a objetos.
 
 ## 🗂️ Organização
 
@@ -51,16 +65,27 @@ POO-I/
     ├── 07_atv/
     ├── 08_atv/
     ├── 09_atv/
-    ├── 09_atv_sorveteria/
+    ├── 09_atv_sorveteria/   ← destaque
     ├── P2/
     └── P2_Adicional/
 ```
 
-## 📈 Evolução
+## 📈 Da POO ao Backend
 
-Este repositório representa uma etapa anterior à disciplina **POO II**, na qual passei a trabalhar com Java no contexto de backend, Spring Boot, APIs REST e persistência de dados.
+Este repositório registra a base construída antes da disciplina **POO II**.
 
-➡️ Veja também: [POO-II — API de Tarefas com Spring Boot](https://github.com/Guilherme9727/POO-II)
+```text
+POO I
+classes + objetos + modelagem
+        ↓
+POO II
+arquitetura em camadas + Spring Boot
+        ↓
+Backend
+APIs REST + persistência + banco de dados
+```
+
+➡️ [POO-II — API de Tarefas com Spring Boot](https://github.com/Guilherme9727/POO-II)
 
 ## 👨‍💻 Autor
 
